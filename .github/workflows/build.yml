@@ -19,7 +19,7 @@ jobs:
 
       - name: Setup release information
         run: |
-          versionName=$(date +%y.%m).$(git rev-parse --short HEAD)
+          version=$(date +%y.%m).$(git rev-parse --short HEAD)
           echo "VERSION_NAME=$version" >> $GITHUB_ENV
 
       - name: Create Release
