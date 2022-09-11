@@ -1,6 +1,6 @@
 module github.com/lab42/google-token-helperr
 
-go 1.17
+go 1.19
 
 require google.golang.org/api v0.60.0
 
